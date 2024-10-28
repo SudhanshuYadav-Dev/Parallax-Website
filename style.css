@@ -1,0 +1,65 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+     color: #666;
+}
+.pimg1{
+    background-image: url(images/field-6574455_1280.jpg);
+    min-height: 100%;
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.pimg2{
+    background-image: url(images/bird-8788491_1280.webp);
+    min-height: 100%;
+}
+.pimg3{
+    background-image: url(images/fishing-8842590_1280.webp);
+    min-height: 100%;
+}
+
+.pimg1, .pimg2, .pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+
+}
+.textbg{
+    background: #000;
+    color: #fff;
+    padding: 20px;
+}
+.section{
+    padding: 50px 50px;
+    text-align: center;
+}
+.section-light{
+    background-color: #f4f4f4;
+    color: #666;
+    
+}
+.section-dark{
+    background-color: #282e34;
+    color: #ddd;
+    
+}
